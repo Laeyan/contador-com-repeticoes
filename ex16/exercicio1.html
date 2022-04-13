@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body> 
+    <header>
+        <h1>Contador</h1>
+    </header>
+    <section>
+        <div id="inputs">
+            <p>Inicio:
+                <input type="number" id="inicio" name="inicio" >
+            </p>
+            <p>Fim:
+                <input type="number" id="fim" name="fim" >
+            </p>
+            <p>Passo:
+                <input type="number" id="passo" name="passo" >
+            </p>
+        </div>
+        <div id="button">
+            <input type="button" value="contar" onclick="contar()" id="contar" >
+        </div>
+
+        <div id="msg">
+            Preparando a contagem...
+        </div>
+    </section>
+    <footer>
+        <p>&COPY; Laeyan</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
